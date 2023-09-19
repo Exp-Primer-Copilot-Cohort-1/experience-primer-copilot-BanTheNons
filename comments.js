@@ -5,7 +5,7 @@
 // 4. Handle PUT requests to /comments/:id
 // 5. Handle DELETE requests to /comments/:id
 
-var express = require('express')
+var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var _ = require('lodash');
